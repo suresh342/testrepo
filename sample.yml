@@ -1,0 +1,11 @@
+---
+- hosts: all
+  become: yes
+  task:
+  - name: i want to install java
+    apt:
+     name: java
+     state: present
+
+
+
